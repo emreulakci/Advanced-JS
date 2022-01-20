@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battery</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Battery Simulation</h1>
+        <section id="container">
+            <div id="buttons">
+                <div>
+                    <button id="plus">Charge (+)</button>
+                </div>
+                <div>
+                    <button id="minus">Discharge (-)</button>
+                </div>
+            </div>
+            <div id="battery-container">
+                <div class="battery-section" id="batteryTop"></div>
+                <div class="battery-section" id="batteryLevelThree"></div>
+                <div class="battery-section" id="batteryLevelTwo"></div>
+                <div class="battery-section" id="batteryLevelOne"></div>
+                <div id="batteryShow">% 0</div>
+            </div>
+        </section>
+    </header>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
