@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: rgb(245, 246, 249);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px;
+    box-shadow: rgb(12, 12, 98);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    background: linear-gradient(to left, #aab9f0, #7e91ad);
+}
+
+header {
+    background-color: #a1a5ac;
+}
