@@ -1,7 +1,7 @@
 function createHeader() {
     return `
             <nav class="navbar navbar">
-                <a class="navbar-brand text-dark" href="#">School of St. Moritz</a>
+                <a class="navbar-brand text-dark" href="#">ST. MORITZ</a>
             </nav>
     `
 }
