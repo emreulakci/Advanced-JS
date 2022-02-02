@@ -1,4 +1,4 @@
-et batteryLevel = 0;
+let batteryLevel = 0;
 const batteryLevelOne = document.querySelector("#batteryLevelOne");
 const batteryLevelTwo = document.querySelector("#batteryLevelTwo");
 const batteryLevelThree = document.querySelector("#batteryLevelThree");
