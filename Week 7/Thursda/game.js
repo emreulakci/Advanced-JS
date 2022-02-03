@@ -78,7 +78,7 @@ document.querySelector("#startstop").addEventListener("click", () => {
 timerPrint = () => {
     setInterval(() => {
         timeCounter++;
-        timeText.innerText = `Time ${timeCounter}/${maxtime}`;
+        timeText.innerText = `Süre ${timeCounter}/${maxtime}`;
         timeBarFull.style.width = `${(timeCounter / maxtime) * 100}%`;
         if (timeCounter == 10) {
             getNewQuestion()
@@ -108,7 +108,7 @@ getNewQuestion = () => {
     }
     //questıon counter
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${maxQuestions}`;
+    progressText.innerText = `Soru ${questionCounter}/${maxQuestions}`;
 
     // update the progress bar
     console.log;
